@@ -14,16 +14,41 @@ $(document).ready(function(){
       auto: false,
       pager: true
     });
-    $('.slider-klienti').bxSlider({
-      minSlides: 6,
-      maxSlides: 6,
-      slideWidth: 200,
-      slideMargin: 10,
-      infiniteLoop: true,
-      auto: true,
-      moveSlides: 1,
-      pager: false
-    });
+    if($('#nashi-klienti').width()>1024){
+        $('.slider-klienti').bxSlider({
+          minSlides: 6,
+          maxSlides: 6,
+          slideWidth: 200,
+          slideMargin: 10,
+          infiniteLoop: true,
+          auto: true,
+          moveSlides: 1,
+          pager: false
+        });
+    }
+    else{
+        $('.slider-klienti').bxSlider({
+          minSlides: 3,
+          maxSlides: 3,
+          slideWidth: 200,
+          slideMargin: 0,
+          infiniteLoop: true,
+          auto: true,
+          moveSlides: 1,
+          pager: false
+        });
+    }
+    $('.preimushestva-items-bx').bxSlider({
+          minSlides: 1,
+          maxSlides: 1,
+          slideWidth: 200,
+          slideMargin: 10,
+          infiniteLoop: true,
+          auto: true,
+          moveSlides: 1,
+          pager: false
+     });
+   
     //initialize();
     $('.contacts-left').click(function(event){
         event.preventDefault();
@@ -49,4 +74,19 @@ $(document).ready(function(){
         $('.tipo-map-img').eq(0).css('transition', 'all 0.5s');
         
     })
+    
+    $(window).resize(function() {
+        if($('#nashi-klienti').width()<1024){
+            $('.slider-klienti').bxSlider({
+              minSlides: 3,
+              maxSlides: 3,
+              slideWidth: 200,
+              slideMargin: 10,
+              infiniteLoop: true,
+              auto: true,
+              moveSlides: 1,
+              pager: false
+            });    
+        }
+	});
 });

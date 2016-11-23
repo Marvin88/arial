@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="top-menu-wrapper">
-                        <img class="visible-xs" src="/images/mobile-menu-icon.png" title="Меню" alt="Меню"/>
+                        <img class="hidden-lg" src="/images/mobile-menu-icon.png" title="Меню" alt="Меню"/>
                 </div>
                 <div class="col-lg-1 col-xs-2 text-right no-p-r top-menu">
                    <a href="#">
@@ -85,8 +85,8 @@
     <body>
     <main>
         <section id="zakaz-nav">
-            <div class="container">
-                <div class="row">
+            <div class="container-fluide">
+                <div class="row zakaz-nav">
                     <div class="col-lg-6 no-p-r no-p-l">
                         <div class="zakaz-nav-1">
                             <button class="button-1">
@@ -187,7 +187,7 @@
             </div>
         </section>
         <section id="about">
-            <div class="container">
+            <div class="container-fluide">
                 <div class="row">
                     <div class="text-block">
                         <div class="about-1">
@@ -247,7 +247,7 @@
         <section id="preimushestva">
             <h2>наши преимущества</h2>
             <div class="container">
-                <div class="row">
+                <div class="row visible-lg">
                     <div class="col-lg-4">
                         <div class="preim-block preim-1">
                             <img src='/images/7.png'/>
@@ -279,11 +279,45 @@
                         </div>
                     </div>
                 </div>
+                <!-- Slider THIS */-->
+                <div class="row preimushestva-items-bx hidden-lg">
+                    <div class="col-lg-4">
+                        <div class="preim-block preim-1">
+                            <img src='/images/7.png'/>
+                            <div class="seporator-small"></div>
+                            <span>
+                                ПРИ Выполнении заказов
+                                любой сложности
+                            </span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="preim-block preim-2">
+                            <img src='/images/8.png'/>
+                            <div class="seporator-small"></div>
+                            <span>
+                                Мы даем 100% гарантию 
+                                готовности вашего заказа
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="preim-block preim-3">
+                            <img src='/images/9.png'/>
+                            <div class="seporator-small"></div>
+                            <span>
+                                САМОЕ СОВРЕМЕННОЕ ОБОРУДОВАНИЕ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider THIS */-->
             </div>
         </section>
         <section id="nashi-klienti">
             <h2>Наши клиенты</h2>
-             <div class="container">
+             <div class="container-fluide">
                 <div class="row">
                     <ul class="slider-klienti">
                         <li><img src="/images/k1.png" /></li>
@@ -303,10 +337,10 @@
             </div>
         </section>
         <section id="nav-bottom">
-            <div class="container">
+            <div class="container-fluide">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="main-menu-bottom">
+                    <div class="col-lg-3 ">
+                        <div class="main-menu-bottom visible-lg">
                             <ul>
                                 <li><a href="#">продукция</a></li>
                                 <li><a href="#">О КОМПАНИИ</a></li>
@@ -367,27 +401,40 @@
         </section>
         
     </main>
+    <div class="clear"></div>
     <footer>
         <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 visible-lg">
                         <button class="ask-question">
                             задать вопрос
                         </button>
                     </div>
-                    <div class="col-lg-2 col-lg-offset-3"> 
+                    <div class="col-lg-2 col-lg-offset-3 col-xs-5 col-sm-5 col-md-5  col-xs-offset-0 col-sm-offset-0 col-md-offset-0"> 
                         <div class="row">
                             <div class="col-lg-7 no-p-l no-p-r">
                                 <span class="cart-footer-summ">ваш заказ:</span>
                             </div>
                             <div class="col-lg-4 no-p-l no-p-r">
-                                <div class="cart-summ-footer">
+                                <div class="cart-summ-footer visible-lg">
                                     33
                                 </div>
-                            </div>                          
+                                <p class="cart-summ-footer hidden-lg">
+                                    33
+                                </p>
+                                <p class="hidden-lg cart-count-note">товаров</p>
+                            </div>  
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="summ-footer">
+                                    15 000 
+                                </div>
+                                <span class="curency-footer">
+                                    руб.
+                                </span>
+                            </div>                        
                         </div>
                     </div> 
-                    <div class="col-lg-1 no-p-l no-p-r">
+                    <div class="col-lg-1 no-p-l no-p-r visible-lg">
                         <div class="summ-footer">
                             15 000 
                         </div>
@@ -395,7 +442,7 @@
                             руб.
                         </span>
                     </div>
-                    <div class="col-lg-3 text-right">
+                    <div class="col-lg-3 col-xs-7 col-sm-7 col-md-7 text-right button-cart-wrapper">
                         <button class="make-order">
                             <img src="/images/cart.png" />
                             оформить
