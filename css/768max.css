@@ -1,0 +1,295 @@
+@media (max-width: 767px) {
+    #m-header{
+        background-color: #fc5814;
+        line-height: 38px;
+    }
+   
+    .container-fluid2{
+        max-width: 100%;
+    } 
+    .top-menu-wrapper{
+        background-color: #313235;
+        width: 39px;
+        height: 39px;
+        z-index: 1111;
+        position: absolute;
+        right: 0;
+    }
+    .logo {
+    padding-top: 1px;
+    background-color: #fc5814;
+    font-family: "Arial-Black";
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 15px;
+    
+    
+    }
+    .row.zakaz-nav{
+        
+    }
+    .button-1{
+        width: 100%;
+        line-height: 39px;
+        font-size: 14px;
+        border: 3px solid #fc5814;
+    }
+    .button-1 img{
+        height: 30px;
+        position: absolute;
+        right: 5%;
+        top: 5px;
+    }
+    .zakaz-nav-2 {
+        padding-top: 20px;
+        padding-left: 15px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .zakaz-nav-2 input[type="text"] {
+        line-height: 46px;
+        text-align: center;
+        border: 0px;
+        font-size: 14px;
+        float: left;
+        padding-left: 0px;
+        font-family: "Arial regular";
+        font-weight: bold;
+        width: 61%;
+        display: inline-block;
+    }
+    .zakaz-nav-2 input[type="button"] {
+        background-color: #fc5814;
+        border: 0px;
+        font-size: 14px;
+        font-family: "GPM";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 48px;
+        text-align: center;
+        display: inline-block;
+        width: 39%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .zakaz-nav-2{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .prod-item{
+        overflow: hidden;
+        height: 135px;
+        width: 47%;
+        margin-right: 0!important;
+        
+    }
+    .prod-item-text a {
+        font-size: 14px;
+    }
+    .prod-6, .prod-5, .prod-4, .prod-3, .prod-2, .prod-1 {
+        height: 135px;}
+    .prod-item-text a img{
+        width: 38%;
+        max-width: 56px;
+    }
+    .prod-item:nth-child(even){
+        margin-left: 6%;
+        margin-right: 0!important;
+    }
+    .prod-6, .prod-5, .prod-4, .prod-3, .prod-2, .prod-1 {
+        
+    }
+    .prod-item-text p {
+        padding-top: 9px;
+    }
+    .prod-bg {
+        height: 135px;
+        width: 100%;
+    }
+    .prod-item-text a {
+        
+    }
+    
+    .my_slider{
+        width: 100%;
+    }
+    .about-1 {
+        background-color: #dfe4ea;
+        padding-top: 17px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 17px;
+        height: 100%;
+    }
+    .about-inner {
+        border: 3px solid #fc5814;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: px;
+        padding-bottom: 20px;
+        height: 100%;
+    }
+    .prod-bg {
+        border: 3px solid #fc5814;
+    }
+    .about-inner h2 {
+        font-size:21px;
+    }
+    #preimushestva h2{
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .preim-block span {
+        padding-bottom: 20px;
+    }
+    #preimushestva{
+        padding-bottom: 20px;
+    } 
+    #zakaz-nav{
+        margin-top: 0;
+    }
+    #preimushestva .bx-viewport{
+        height: 226px!important;
+    }
+    #nav-bottom {
+        height: auto;
+    }
+    .about-inner-text {
+        font-size: 14px;
+        font-family: "Arial";
+        color: rgb(49, 50, 53);
+        line-height: 1.2;
+        text-align: left;
+        height: 72px;
+    }
+    footer {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }
+    footer .container-fluid2 .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .make-order{
+        margin-left: 0px;
+    }
+    .top-logo-block{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .mobile-cart-info .no-p-l{
+        padding-left: 0px!important;
+    }
+    .mobile-cart-info .no-p-r{
+        padding-right: 0px!important;
+    }
+    .cart-summ-footer{
+        display: inline;
+        font-size: 14.215px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height:1;
+        text-align:left;
+        width: auto;
+        height: auto;
+        background:none;  
+    }
+    
+    .cart-count-note{
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+    .curency-footer, .summ-footer {
+        padding-top: 1px;
+    }
+    .cart-footer-summ {
+        font-size: 14.612px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .make-order{
+        width: 100%;
+        padding-left: 0px;
+    }
+    #preimushestva .big{
+      font-size: 16px;
+      font-family: "GP";
+      color: rgb(49, 50, 53);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1;
+      text-align: center;
+      padding-bottom: 0px!important;
+      padding-top: 7px!important;
+    }
+    .button-cart-wrapper{
+        padding-left: 0px;
+        padding-top: 6px;
+    }
+    .button-more {
+        background-color: #313235;
+        margin-top: 14px;
+        width: 114px;
+    }
+    .my_slider .my_bxslider-controls {
+        right: 15px;
+    }
+    
+    #products {
+        padding-bottom: 11px;
+    }
+    .button-more a {
+        font-size: 14.203px;
+        font-family: "Myriad Pro";
+        color: #f15922;
+        text-transform: uppercase;
+        line-height: 2.2;
+        text-align: center;
+        display: block;
+    }
+    .text-block{
+        background-color: #dfe4ea;
+    }
+    #products h2{
+        margin-top: 27px;
+        margin-bottom: 24px;
+    }
+    #products .row{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .map-main {
+        
+        
+        background-image: url('../images/tipa-map.png');
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #zakaz-nav .no-p-r{
+        padding-left: 0px!important;
+    }
+    #zakaz-nav .no-p-l{
+        padding-right: 0px!important;
+    }
+    .zakaz-nav-1 {
+        background-image: url("/images/calculate-bg.png");
+        height: auto;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-size: cover;
+    }
+}
