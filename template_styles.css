@@ -200,6 +200,9 @@ section h2{text-align: center;}
 .prod-item:hover .prod-6{
     display: none;
 }
+.prod-item:hover .prod-5{
+    display: none;
+}
 .about-1{
     background-color: #dfe4ea;
     padding-top: 37px;
@@ -587,12 +590,10 @@ background-position: center;
 }
 .contacts-right{
     background-color: #dfe4ea;
-     width: 49.5%;
-    margin-left: 0.5%;
+     
 }
 .contacts-left{
-    width: 49.5%;
-    margin-right: 0.5%;
+   
 }
 .scheme-btn{
     background-color: #fff;
@@ -631,26 +632,38 @@ background-position: center;
     display: block;
     background-color: #fff;
     border: 5px solid #fc5814;
-    line-height: 53px;
     text-align: left;
     font-size: 18px;
     text-align: center;
     width: 100%;
+    line-height: 55px;
+}
+.buttons-row{
+    padding-right: 0px;
+}
+.tipo-map-img.active{
+    height: auto;
+    opacity: 1;
 }
 .map-info{
     position: absolute;
     background-color: #dfe4ea;
     padding-left: 47px;
     padding-right: 47px;
-    padding-top: 42px;
-    padding-bottom: 43px;
+    padding-top: 30px;
+    padding-bottom: 32px;
     width: 361px;
     right: 0;
+    z-index: 11;
+}
+.c-left{
+    padding-left: 0px;
 }
 .button-2.active{
     color: #fff;
     background-color: #fc5814;
 }
+
 .map-info-inner{
     border: 3px solid #fd5915;
 }
@@ -668,13 +681,14 @@ background-position: center;
   text-align: center;
 }
 .tipo-map-img{
+    height: 0px;
     width: 918px;
     float: left;
 }
 #tipo-map{
         padding-top: 20px;
         position: relative;
-            height: 637px;
+        height: 637px;
 }
 .contact-text img{
     display: block;

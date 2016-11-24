@@ -79,11 +79,13 @@ $(document).ready(function(){
         $('.contacts-right').removeClass('active');
         $(this).addClass('active');
         $('.tipo-map-img').eq(0).css('opacity', '0');
+        $('.tipo-map-img').eq(0).css('height', '0');
         $('.tipo-map-img').eq(0).css('transition', 'all 0.5s');
         $('.tipo-map-img').eq(0).css('z-index', '0');
         $('.tipo-map-img').eq(1).css('opacity', '1');
         $('.tipo-map-img').eq(1).css('z-index', '2');
         $('.tipo-map-img').eq(1).css('transition', 'all 0.5s');
+        $('.tipo-map-img').eq(1).css('height', 'auto');
         
     })
     $('.contacts-right').click(function(event){
@@ -92,10 +94,12 @@ $(document).ready(function(){
         $(this).addClass('active');
         $('.tipo-map-img').eq(1).css('opacity', '0');
         $('.tipo-map-img').eq(1).css('z-index', '0');
+        $('.tipo-map-img').eq(1).css('height', '0');
         $('.tipo-map-img').eq(1).css('transition', 'all 0.5s');
         $('.tipo-map-img').eq(0).css('opacity', '1');
         $('.tipo-map-img').eq(0).css('z-index', '2');
         $('.tipo-map-img').eq(0).css('transition', 'all 0.5s');
+        $('.tipo-map-img').eq(0).css('height', 'auto');
         
     })
     
