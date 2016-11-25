@@ -220,6 +220,9 @@
         width: 100%;
         padding-left: 0px;
     }
+    .my-hidden-xs{
+        display: none;
+    }
     #preimushestva .big{
       font-size: 16px;
       font-family: "GP";
@@ -235,6 +238,7 @@
         padding-left: 0px;
         padding-top: 6px;
     }
+    
     .button-more {
         background-color: #313235;
         margin-top: 14px;
@@ -291,5 +295,49 @@
         padding-left: 15px;
         padding-right: 15px;
         background-size: cover;
+    }
+    .clear{
+        clear: both;
+    }
+    .map-info {
+        position: relative;
+        width: auto;
+    }
+    .c-mobile-header h2{
+      font-size: 18px;
+      font-family: "Arial";
+      color: rgb(49, 50, 53);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      
+    }
+    .c-mobile-header{
+        background-color: #c2ccd5;
+    }
+    .c-note {
+      font-size: 14.274px;
+      font-family: "Arial";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 3.2;
+      text-align: center;
+      background-color: #313235;
+    }
+    .mobile-c .no-p-l{
+        padding-left: 0px!important;
+    }
+    .mobile-c .no-p-r{
+        padding-right: 0px!important;
+    }
+    .mobile-c .map-info{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .like-map {
+        width: 100%;
     }
 }

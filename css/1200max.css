@@ -259,9 +259,24 @@
     #tipo-map .no-p-l{
         padding-left: 0px!important;
     }
+    .c-right{
+        padding-right: 0px;
+    }
     .make-order{
         width: 100%;
         padding-left: 0px;
+    }
+    .tipo-map-img{
+        width: 100%;
+    }
+    #shema-nav{
+        margin-right: 0px;
+    }
+    .tipo-map-img img{ 
+        width: 100%;
+    }
+    .my-hidden-xs #tipo-map .no-p-r{
+        padding-right: 0px;
     }
     .button-cart-wrapper{
         padding-left: 0px;

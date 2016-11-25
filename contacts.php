@@ -90,84 +90,127 @@
     <body>
     <main>
     <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12">
-            <h2 class="page-header-my">
-                контакты
-            </h2>
-        </div>
-        <div class="col-lg-12 buttons-row">
-            <section class="row" id="shema-nav">
-            
-                        <div class="col-lg-6 col-sm-6 col-md-6 c-left">
-                            <div class="contacts-left active contacts-left-wrapper">
-                                <div class="scheme-btn">
-                                    <a href="#">
-                                        СХЕМА ПРОЕЗДА
-                                    </a>
+        <div class="row my-hidden-xs">
+            <div class="col-lg-12">
+                <h2 class="page-header-my">
+                    контакты
+                </h2>
+            </div>
+            <div class="col-lg-12 buttons-row">
+                <section class="row" id="shema-nav">
+                
+                            <div class="col-lg-6 col-sm-6 col-md-6 c-left">
+                                <div class="contacts-left active contacts-left-wrapper">
+                                    <div class="scheme-btn">
+                                        <a href="#">
+                                            СХЕМА ПРОЕЗДА
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-md-6 c-right">
+                                <div class="contacts-right-wrapper contacts-right">
+                                    <button class="button-2">
+                                        СХЕМА ПРОЕЗДА ПО ГОРОДУ        
+                                    </button>
                                 </div>
                             </div>
-                            
-                        </div>
-                        <div class="col-lg-6 col-sm-6 col-md-6">
-                            <div class="contacts-right-wrapper contacts-right">
-                                <button class="button-2">
-                                    СХЕМА ПРОЕЗДА ПО ГОРОДУ        
-                                </button>
-                            </div>
-                        </div>
-            </section>
+                </section>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="" id="tipo-map">
-            
-                <div class="col-lg-8 col-sm-12 col-md-12 no-p-l">
-                    <div class="tipo-map-img">
-                        <div class="">
-                            <img src="/images/map-c.png" />
-                        </div>
-                    </div>
-                    <div class="tipo-map-img active">
-                        <div class="">
-                            <img src="/images/map-c-2.png" />
-                        </div>
-                    </div>
-                </div>
+        <div class="row my-hidden-xs">
+            <div class="" id="tipo-map">
                 
-                <div class="col-lg-4 col-sm-12 col-md-12 no-p-l">
-                    <div class="map-info">
-                        <div class="map-info-inner row">
-                            <div class="col-lg-12 col-sm-6 col-md-6 contact-text">
-                                <img src="images/c-i-1.png"/>
-                                санкт-петербург
-                                ул. Газовая 10
+                    <div class="col-lg-8 col-sm-12 col-md-12 no-p-l">
+                        <div class="tipo-map-img">
+                            <div class="">
+                                <img src="/images/map-c.png" />
                             </div>
-                            <div class="col-lg-12 col-sm-6 col-md-6 contact-text ">
-                                <img src="images/c-i-2.png"/>
-                                8 (812) 334-53-33
+                        </div>
+                        <div class="tipo-map-img active">
+                            <div class="">
+                                <img src="/images/map-c-2.png" />
                             </div>
-                            <div class="clear"></div>
-                            <div class="col-lg-12 col-sm-6 col-md-6  contact-text ">
-                                <img src="images/c-i-3.png"/>
-                                пн-пт: 10:00 - 19:00
-                                сб-вс: выходной
-                            </div>
-                            <div class="col-lg-12 col-sm-6 col-md-6  contact-text contact-text3">
-                                    
-                                <p style="color: #fd5915;">выдача продукции</p>
-                                пн-вс: 10:00 - 22:00 
-                                без выходных
-                            </div>
-                        
                         </div>
                     </div>
-                </div>
+                    
+                    <div class="col-lg-4 col-sm-12 col-md-12 no-p-l no-p-r">
+                        <div class="map-info">
+                            <div class="map-info-inner row">
+                                <div class="col-lg-12 col-sm-6 col-md-6 contact-text">
+                                    <img src="images/c-i-1.png"/>
+                                    санкт-петербург
+                                    ул. Газовая 10
+                                </div>
+                                <div class="col-lg-12 col-sm-6 col-md-6 contact-text ">
+                                    <img src="images/c-i-2.png"/>
+                                    8 (812) 334-53-33
+                                </div>
+                                <div class="clear"></div>
+                                <div class="col-lg-12 col-sm-6 col-md-6  contact-text ">
+                                    <img src="images/c-i-3.png"/>
+                                    пн-пт: 10:00 - 19:00
+                                    сб-вс: выходной
+                                </div>
+                                <div class="col-lg-12 col-sm-6 col-md-6  contact-text contact-text3">
+                                        
+                                    <p style="color: #fd5915;">выдача продукции</p>
+                                    пн-вс: 10:00 - 22:00 
+                                    без выходных
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="clear"></div>
                 
-                <div class="clear"></div>
-            
-       </div>
-    </div>
+           </div>
+        </div>
+        <!-- 320 -768 MOBILE -->
+        <div class="row visible-xs mobile-c">
+            <div class="col-xs-12 c-mobile-header">
+                <h2>КОНТАКТЫ</h2>
+            </div>
+            <div class="clear"></div>
+             <div class="map-info">
+                <div class="map-info-inner row">
+                    <div class="col-lg-12 col-sm-6 col-md-6 contact-text">
+                        <img src="images/c-i-1.png"/>
+                            санкт-петербург
+                            ул. Газовая 10
+                    </div>
+                    <div class="col-lg-12 col-sm-6 col-md-6 contact-text ">
+                        <img src="images/c-i-2.png"/>
+                        8 (812) 334-53-33
+                    </div>
+                    <div class="clear"></div>
+                    <div class="col-lg-12 col-sm-6 col-md-6  contact-text ">
+                        <img  src="images/c-i-3.png"/>
+                        пн-пт: 10:00 - 19:00
+                        сб-вс: выходной
+                    </div>
+                    <div class="col-lg-12 col-sm-6 col-md-6  contact-text contact-text3">                   
+                        <p style="color: #fd5915;">выдача продукции</p>
+                        пн-вс: 10:00 - 22:00 
+                        без выходных
+                    </div>        
+                </div>
+             </div>
+             <div class="col-xs-12 no-p-l no-p-r">
+                <div class="c-note">
+                    СХЕМА ПРОЕЗДА ПО ГОРОДУ
+                </div>
+                    <img class="like-map" src="/images/m-city-map.jpg"/>
+             </div>
+             <div class="col-xs-12  no-p-l no-p-r">
+                <div class="c-note">
+                    СХЕМА ПРОЕЗДА ПО ТЕРРИТОРИИ
+                </div>
+                    <img class="like-map" src="/images/m-inside-map.jpg"/>
+             </div>
+        </div>
     </div>
     </main>
    <footer>
