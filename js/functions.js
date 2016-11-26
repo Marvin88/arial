@@ -131,4 +131,29 @@ $(document).ready(function(){
             });    
         }
 	});
+    $('.close-menu').on('click', function(){
+        overlayHide();
+        menuClose();
+        })
+    $('.menu-overlay').on('click', function(){
+        overlayHide();
+        menuClose();
+    })
+    $('.top-menu-wrapper').on('click', function(){
+         overlayShow();
+         menuOpen();
+    })
 });
+function menuOpen(){
+    $('.mobile-dropdown-menu').addClass('active');
+}
+function menuClose(){
+    $('.mobile-dropdown-menu').removeClass('active');
+}
+function overlayHide(){
+    $('.menu-overlay').removeClass('active');
+}
+function overlayShow(){
+    $('.menu-overlay').addClass('active');
+}
+
