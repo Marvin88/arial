@@ -105,140 +105,132 @@
     </div>
     <main>
         <section id ="breadcrumbs">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="bread-item">главная</div>
                 <div class="bread-seporator"><img src="/images/bread-seporator.png"/></div>
-                <div class="bread-item">производство</div>
+                <div class="bread-item">портфолио</div>
             </div>
         </section>
-        <section id="development">
-            <div class="container container-768">
-                <h2>ПРОИЗВОДСТВО</h2>
+        <h2 class="portfolio-header">Портфолио</h2>
+        <section id ="portfolio-nav">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
+                    <div class="col-lg-6 col-sm-12 col-md-12 nav-block">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2 col-md-2 no-p-r " >
+                                <img src="/images/portfolio-nav-1.png"/>
                             </div>
-                            
-                        </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-3.png"/>
-                            </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
-                            </div>
-                        </div>
-                    </div>
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
-                            </div>
-                            
-                        </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-5.png"/>
-                            </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
+                            <div class="col-lg-10 col-sm-8 col-md-8 no-p-l">
+                                <h2>Направления</h2>
+                                <div class="portfolio-seporator"></div>
+                                <div class="row">
+                                    <div class="col-lg-6 tag-item">
+                                        <a href="">
+                                            баннеры сетки
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 tag-item">
+                                         <a href="">
+                                            ск пленки, стикеры
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 tag-item">
+                                        <a href="">
+                                            ткани, флаги
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
+                    <div class="col-lg-6 col-sm-12 col-md-12 nav-block">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2 col-md-2 no-p-r">
+                                <img src="/images/portfolio-nav-2.png"/>
                             </div>
-                            
-                        </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-3.png"/>
-                            </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
-                            </div>
-                        </div>
-                    </div>
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
-                            </div>
-                            
-                        </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-3.png"/>
-                            </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
+                            <div class="col-lg-10 col-sm-8 col-md-8 no-p-l">
+                                <h2>Клиенты</h2>
+                                <div class="portfolio-seporator"></div>
+                                <div class="row">
+                                    <div class="col-lg-6 tag-item">
+                                        <a href="">
+                                            audi
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 tag-item">
+                                         <a href="">
+                                            beeline
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 tag-item">
+                                        <a href="">
+                                            bmw
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
-                            </div>
-                            
+                    </div>  
+                </div>
+            
+            </div>
+        </section>
+        <section id="portfolio-items">
+            <div class="container">
+                <div class="items-1-2-wrapper">
+                    <div class="portfolio-item item-1">
+                        <div class="portfolio-item-img">
+                            <img src="/images/portfolio-1.jpg" />
                         </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-5.png"/>
+                        <div class="text-block-p block-o text-block-1">
+                            <div class="text-block-wrapper">
+                                <h3>Expoforum</h3>
+                                Изготовление наружной рекламы для крупнейшего на Северо-Западе  организатора выставок и конгрессов.
                             </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
+                            <div class="text-block-buttons-wrapper">
+                                <a href="">широкоформатные баннеры</a>
+                                <a href="">баннеры</a>
                             </div>
                         </div>
                     </div>
-                    <div class="develom-item">  
-                        <div class="develop-img">
-                            <img src="/images/dev-item-1.png"/>
-                            <div class="develop-name">
-                                DURST Rho
-                                P10 HS
-                            </div>
-                            
+                    <div class="portfolio-item item-1">
+                        <div class="portfolio-item-img">
+                            <img src="/images/portfolio-1.jpg" />
                         </div>
-                        <div class="develop-item-descr">
-                            <div class="img">
-                                <img src="/images/dev-icon-3.png"/>
+                        <div class="text-block-p block-g text-block-2">
+                            <div class="text-block-wrapper">
+                                <h3>Expoforum</h3>
+                                Изготовление наружной рекламы для крупнейшего на Северо-Западе  организатора выставок и конгрессов.
                             </div>
-                            <div class="text">
-                                Промышленная печать
-                                рекламной графики 
-                                на тканях
+                            <div class="text-block-buttons-wrapper">
+                                <a href="">широкоформатные баннеры</a>
+                                <a href="">баннеры</a>
                             </div>
                         </div>
                     </div>
+                    <div class="m-clear"></div>
+                </div>
+                <div class="items-doubl-vert-wrapper">
+                    <div class="image">
+                        <img src="/images/portfolio-3.jpg" />
+                    </div>
+                    <div class="text-block-wrapper color-g">
+                        <div class="text">
+                            <h3>Петербургский международный экономический форум</h3>
+                            Ежегодное деловое российское мероприятие в экономической сфере, проводимое в Санкт-Петербурге с 1997 года, и с 2005 года при участии президента России
+                        
+                        </div>
+                        <div class="text-block-buttons-wrapper">
+                            <a href="">широкоформатные баннеры</a>
+                            <a href="">баннеры</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+        
         </section>
-       <section id="nav-bottom">
+        <section id="nav-bottom">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 ">
@@ -265,14 +257,14 @@
                     <div class="col-lg-3 col-sm-12 col-md-12">
                         <div class="main-contacts-bottom">
                             <div class="row">
-                                <div class="col-lg-12 col-sm-4 col-lg-12 c-f-block1">
+                                <div class="col-lg-12 c-f-block1">
                                     <div>
                                         <img  src="/images/phone-icon.png"/>
                                     </div>
                                     
                                     (812) 33 45 333
                                 </div>
-                                <div class="col-lg-12 col-sm-4 col-lg-12  c-f-block2">
+                                <div class="col-lg-12 c-f-block2">
                                     <div>
                                         <img  src="/images/point.png"/>
                                     </div>
@@ -280,13 +272,13 @@
                                     ул. Газовая, д.10,
                                     САНКТ-ПЕТЕРБУРГ
                                 </div>
-                                <div class="col-lg-12 col-sm-4 col-lg-12  c-f-block3">
+                                <div class="col-lg-12 c-f-block3">
                                     <div>
                                         <img  src="/images/mail-icon.png"/>
                                     </div>
                                      info@arial.ru
                                 </div>
-                                <div class="col-lg-12 col-sm-12 col-lg-12  social-footer">
+                                <div class="col-lg-12 social-footer">
                                     <a href="#">
                                         <img src="images/fb-icon.png"/>
                                     </a>
@@ -301,7 +293,6 @@
                 </div>
             </div>
         </section>
-        
     </main>
     <div class="clear"></div>
     <footer>

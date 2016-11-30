@@ -340,4 +340,48 @@
     .like-map {
         width: 100%;
     }
+     .develom-item{
+    width: 290px;
+    height: 157px;
+   }
+   .develop-img img{
+        width: 100%;
+    }
+     .develom-item:hover .develop-img {
+    margin-top: -157px;
+    transition: all 0.3s;
+    }
+    .develop-item-descr{
+        padding-top: 15%;
+    }
+    .develop-name {
+        position: absolute;
+        bottom: 10px;
+        top: auto;
+    }
+    .develom-item{
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .develop-item-descr .img{         
+        height: 100%;
+    }
+    .develop-item-descr {
+        background-color: #3e3e3e;
+        height: 157px;
+        width: 290px;
+    }
+    .develom-item:nth-child(6) {
+        margin-right: auto!important;
+    }
+    .develop-item-descr .text{
+        padding-right: 10px;
+    }
+    .bread-item{
+        font-size: 11px;
+        padding-right: 10px;
+    }
+    #development h2 {
+    font-size: 18px;}
 }

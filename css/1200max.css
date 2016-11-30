@@ -1,4 +1,4 @@
-@media  (min-device-width:768px) and (max-device-width: 1200px)  {
+@media  (min-device-width:768px) and (max-device-width: 1280px)  {
    
 
     #zakaz-nav .button-1{
@@ -313,4 +313,96 @@
    .tipo-map-img{
     position: relative;
    }
+   .develom-item{
+    width: 337px;
+    height: 183px;
+   }
+   .develop-item-descr {
+        padding-top: 0px;
+        background-color: #3e3e3e;
+        width: 337px;
+        height: 183px;
+    }
+   .develom-item:nth-child(2){
+    margin-right: 0px!important;
+   }
+   #development .container-768{
+    width: 768px;
+    
+   }
+    .develom-item:nth-child(odd){
+        margin-left: 34px;
+    }
+    .develop-img img{
+        width: 100%;
+    }
+    .develom-item:hover .develop-img {
+    margin-top: -183px;
+    transition: all 0.3s;
+}
+    .develop-item-descr{
+        padding-top: 15%;
+    }
+    .c-f-block3{
+     padding-top: 20px;
+     text-transform: lowercase;
+    }
+    .c-f-block2{
+         padding-top: 20px;
+    }
+    .c-f-block1{
+        padding-top: 30px;
+    }
+    #portfolio-nav img{
+        position: absolute;
+        left: 35px;
+    }
+    .tag-item{
+        display: inline-block;
+    }
+    .nav-block{
+        padding-bottom: 33px;
+    }
+    .items-1-2-wrapper{
+        float: none;
+        margin-bottom: 26px;
+    }
+    .portfolio-item{
+        width: 337px;
+    }
+    .portfolio-item.item-1{
+        float: left;
+    }
+    #portfolio-items .container{
+        width: 700px;
+    }
+    .text-block-p{
+        position: relative;
+        width: 100%;
+        padding-top: 1px;
+    }
+    .portfolio-item.item-1 {
+        width: 337px;
+    }
+    .m-clear{
+        clear: both;
+        float: none;
+    }
+    .items-1-2-wrapper .portfolio-item:nth-child(1){
+        margin-right: 26px;
+    }
+    .portfolio-item-img{
+        overflow-x: hidden;
+    }
+    .items-doubl-vert-wrapper{
+        width: 337px;
+        border: 0;
+    }
+    #breadcrumbs .container {
+        width: auto;
+        padding-left: 20px;
+    }
+    .nav-block .no-p-l{
+        padding-left: 0px;
+    }
 }
