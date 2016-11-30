@@ -384,4 +384,115 @@
     }
     #development h2 {
     font-size: 18px;}
+    #breadcrumbs .container{
+        margin: 0;
+        padding: 0;
+    }
+    .portfolio-header {padding-top:25px; padding-bottom: 25px; margin: 0;}
+    .portfolio-items{
+         overflow-y: hidden;
+         /*transition:  all 0.5s;*/
+         height: 0px;
+         opacity: 0;
+    }
+    .portfolio-items.active{
+        opacity: 1;
+        background-color: #ebedf0;
+        /*transition:  all 0.5s;*/
+        height: 100%;
+    }
+    .nav-block-list.active{
+        background-color: #ebedf0;
+    }
+    .nav-block-list{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #portfolio-nav .container-fluid{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .mob-clear{
+        clear: both;
+        float: none;
+    }
+    
+    
+    
+    
+    
+     .tag-item{
+        display: inline-block;
+    }
+    
+    .items-1-2-wrapper{
+        float: none;
+        margin-bottom: 26px;
+    }
+    .portfolio-item{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 17px;
+    }
+    .portfolio-item.item-1{
+        
+    }
+    #portfolio-items .container{
+        width: 320px;
+    }
+    .text-block-p{
+        position: relative;
+        width: 100%;
+        padding-top: 1px;
+    }
+    .portfolio-item.item-1 {
+        width: 300px;
+    }
+    .m-clear{
+        clear: both;
+        float: none;
+    }
+    .items-1-2-wrapper .portfolio-item:nth-child(1){
+       margin-right: auto;
+    }
+    .portfolio-item-img{
+        overflow-x: hidden;
+    }
+    .items-doubl-vert-wrapper{
+        width: 337px;
+        border: 0;
+    }
+    .items-1-2-wrapper{
+        margin-bottom: 0px;
+    }
+    #portfolio-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    .items-doubl-vert-wrapper {
+        width: 300px;
+    }
+    .items-doubl-vert-wrapper {
+        width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .items-doubl-vert-wrapper{
+        height: auto;
+    }
+    .items-doubl-vert-wrapper .text-block-wrapper{
+        position: relative;
+        padding-top: 1px;
+    }
+    .items-doubl-vert-wrapper .text-block-wrapper{
+         min-height: auto;
+        max-height: 100%;
+    }
+    .items-doubl-vert-wrapper .text-block-wrapper .text{
+        min-height: auto;
+        max-height: 100%;
+    }
 }

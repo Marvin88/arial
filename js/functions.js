@@ -143,7 +143,23 @@ $(document).ready(function(){
          overlayShow();
          menuOpen();
     })
+    $('.nav-block').on('click', function(){
+        console.log($(this));
+        porfolioBlockToogle($(this));
+    })
 });
+function porfolioBlockToogle(form){
+    console.log(form);
+    console.log($(form).find('.portfolio-items'));
+    if($(form).find('.portfolio-items').hasClass('active')){
+        $(form).find('.portfolio-items').removeClass('active');
+        $(form).find('.nav-block-list').removeClass('active');
+    }
+    else{
+         $(form).find('.portfolio-items').addClass('active');
+          $(form).find('.nav-block-list').addClass('active');
+    }
+}
 function menuOpen(){
     $('.mobile-dropdown-menu').addClass('active');
 }

@@ -405,4 +405,27 @@
     .nav-block .no-p-l{
         padding-left: 0px;
     }
+    .mobile-dropdown-menu{
+        background-color: #e8edf1;
+    }
+    .mobile-dropdown-menu h2{
+        color:#fc5814;
+    }
+    .mobile-dropdown-menu ul li a{
+        color:#313235;
+        border: 3px solid  #e8edf1;
+    }
+    .mobile-dropdown-menu{
+        width: 37%;
+    }
+    .mobile-dropdown-menu.active{
+       
+        left: 63%;
+        
+    }
+    .mobile-dropdown-menu{
+        
+        left: 100%;
+    }
+
 }

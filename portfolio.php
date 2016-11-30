@@ -116,25 +116,32 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 col-md-12 nav-block">
-                        <div class="row">
-                            <div class="col-lg-2 col-sm-2 col-md-2 no-p-r " >
-                                <img src="/images/portfolio-nav-1.png"/>
+                        <div class="row nav-block-list active">
+                            <div class="js-nav-list-dropdown">
+                                <div class="col-lg-2 col-sm-2 col-md-2 col-xs-3 no-p-r " >
+                                    <img src="/images/portfolio-nav-1.png"/>
+                                </div>
+                                <div class=" col-xs-9 no-p-r visible-xs" >
+                                    <h2 class="">Направления</h2>
+                                    <div class="portfolio-seporator"></div>
+                                </div>
+                                <div class="mob-clear"></div>
                             </div>
-                            <div class="col-lg-10 col-sm-8 col-md-8 no-p-l">
-                                <h2>Направления</h2>
-                                <div class="portfolio-seporator"></div>
-                                <div class="row">
-                                    <div class="col-lg-6 tag-item">
+                            <div class="col-lg-10 col-sm-8 col-md-8 col-xs-12 no-p-l">
+                                <h2 class="hidden-xs">Направления</h2>
+                                <div class="portfolio-seporator hidden-xs"></div>
+                                <div class="row portfolio-items active">
+                                    <div class="col-lg-6  col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9 tag-item">
                                         <a href="">
                                             баннеры сетки
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 tag-item">
+                                    <div class="col-lg-6 col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9 tag-item">
                                          <a href="">
                                             ск пленки, стикеры
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 tag-item">
+                                    <div class="col-lg-6 col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9  tag-item">
                                         <a href="">
                                             ткани, флаги
                                         </a>
@@ -144,27 +151,34 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12 col-md-12 nav-block">
-                        <div class="row">
-                            <div class="col-lg-2 col-sm-2 col-md-2 no-p-r">
-                                <img src="/images/portfolio-nav-2.png"/>
+                         <div class="row nav-block-list active">
+                            <div class="js-nav-list-dropdown">
+                                <div class="col-lg-2 col-sm-2 col-md-2 col-xs-3 no-p-r " >
+                                    <img src="/images/portfolio-nav-2.png"/>
+                                </div>
+                                <div class=" col-xs-9 no-p-r visible-xs" >
+                                    <h2 class="">Клиенты</h2>
+                                    <div class="portfolio-seporator "></div>
+                                </div>
+                                <div class="mob-clear"></div>
                             </div>
-                            <div class="col-lg-10 col-sm-8 col-md-8 no-p-l">
-                                <h2>Клиенты</h2>
-                                <div class="portfolio-seporator"></div>
-                                <div class="row">
-                                    <div class="col-lg-6 tag-item">
+                            <div class="col-lg-10 col-sm-8 col-md-8 col-xs-12 no-p-l">
+                                <h2 class="hidden-xs">Клиенты</h2>
+                                <div class="portfolio-seporator hidden-xs"></div>
+                                <div class="row portfolio-items active">
+                                    <div class="col-lg-6  col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9 tag-item">
                                         <a href="">
-                                            audi
+                                            баннеры сетки
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 tag-item">
+                                    <div class="col-lg-6 col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9 tag-item">
                                          <a href="">
-                                            beeline
+                                            ск пленки, стикеры
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 tag-item">
+                                    <div class="col-lg-6 col-xs-offset-3 col-lg-offset-0 col-sm-offset-0 col-md-offset-0 col-xs-9  tag-item">
                                         <a href="">
-                                            bmw
+                                            ткани, флаги
                                         </a>
                                     </div>
                                 </div>
