@@ -139,6 +139,10 @@ $(document).ready(function(){
         overlayHide();
         menuClose();
     })
+    $('.top-menu img').on('click', function(){
+         overlayShow();
+         menuOpen();
+    })
     $('.top-menu-wrapper').on('click', function(){
          overlayShow();
          menuOpen();
