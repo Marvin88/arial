@@ -495,4 +495,54 @@
         min-height: auto;
         max-height: 100%;
     }
+    .raschet.active{
+        position: absolute;
+    }
+    .raschet{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .raschet-item h2{
+        
+    }
+    .raschet h1{
+        font-size: 18px;
+    }
+    .raschet-item-img img{
+        float: right;
+    }
+    .raschet-item h2{
+        font-size: 16px;
+    }
+    .close-raschet img{
+        width: 100%;
+    }
+    .close-raschet{
+        width: 25px;
+    }
+    .raschet h1 img{
+        padding-left: 0px;
+        margin-top: -4px;
+        display: inline-block;
+        margin-right: 8px;
+        width: 26px;
+    }
+    .raschet .close-raschet{
+        top:37px;
+    }
+    .raschet{
+        height: auto;
+    }
+    .ne-standart a{
+        padding-left: 13px;
+        padding-right: 13px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 12px;
+    }
+    .raschet-item{
+        padding-left: 30px;
+    }
+   
 }

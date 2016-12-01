@@ -1118,3 +1118,106 @@ background-position: center;
     margin: 0 auto;
     display: block;
 }
+.raschet.active{
+    position: relative;
+    position: fixed;
+    z-index: 111111;
+    opacity: 1;
+    transition: all 0.6s;
+}
+.raschet{
+    padding-left: 182px;
+    padding-top: 60px;
+    padding-right: 110px;
+    padding-bottom: 74px;
+    background-color: #c1ccd5;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.6s;
+    position: absolute;
+}
+.raschet h1 img{
+    padding-left: 7px;
+    margin-top: -4px;
+    display: inline-block;
+    margin-right: 80px;
+}
+.raschet .close-raschet{
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    cursor: pointer;
+}
+.raschet-item:nth-child(3){
+    padding-left: 30px;
+}
+.raschet h1{
+    margin-bottom: 30px;
+  font-size: 35px;
+  font-family: "GP";
+  color: rgb(49, 50, 53);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+.raschet-item:hover{
+    background-color: #dfe4ea;
+}
+.raschet-item:hover a{
+    cursor: pointer;
+    border: 3px solid #dfe4ea;
+}
+.raschet-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.raschet-item h2{
+  padding-left: 4px;
+  font-size: 20px;
+  font-family: "GP";
+  color: rgb(241, 89, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-top: 0px;
+}
+.raschet-item-img img{
+    float: right;
+}
+.raschet-item a{
+    display: block;
+  font-size: 18px;
+  font-family: "GP";
+  color: rgb(49, 50, 53);
+  line-height: 1.667;
+  text-align: left;
+  padding-left: 4px;
+  border: 3px solid #c1ccd5;
+  margin-right: 30px;
+}
+.raschet-item a:hover{
+    
+    background-color: #ffffff;
+    border: 3px solid #fc5814;
+}
+.ne-standart{
+    margin-top: 30px;
+}
+.ne-standart a{
+  display: inline-block;
+  font-size: 16.612px;
+  font-family: "GP";
+  color: rgb(49, 50, 53);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ffffff;
+    border: 3px solid #fc5814;
+    line-height: 2.4;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}

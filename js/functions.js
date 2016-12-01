@@ -147,6 +147,13 @@ $(document).ready(function(){
         console.log($(this));
         porfolioBlockToogle($(this));
     })
+    $('.button-1').on('click', function(){
+        $('.raschet').addClass('active');
+    })
+    $('.close-raschet').on('click', function(){
+        $('.raschet').removeClass('active');
+    })
+    
 });
 function porfolioBlockToogle(form){
     console.log(form);
